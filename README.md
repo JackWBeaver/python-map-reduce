@@ -35,6 +35,8 @@ cat part.txt | python 21mapper.py | sort  | python 22reducer.py
 
 ```
 
+The command used to process the larger file in Case 2: 'cat purchases.txt | python 21mapper.py | sort | python 22reducer.py'
+
 ## References
 
 - [Udacity "Introduction to Hadoop and MapReduce"](https://classroom.udacity.com/courses/ud617/)
